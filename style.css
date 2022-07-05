@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body,
+p,
+a,
+span,
+strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* common css part */
+.common-header-section {}
+
+.common-header-setion h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.common-header-setion p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #575757;
+}
+
+.link-button {
+    background: #3c40c6;
+    font-size: 22px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* header section css */
+
+
+.header-section {
+    background: url(./images/donation5.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section h1 {
+    font-size: 65px;
+    text-align: center;
+    width: 55%;
+    color: #fff;
+}
+
+.header-section p {
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    margin: 40px 0;
+    color: #fff;
+}
+
+
+/* Donate amount section css */
+
+
+.donate-amount-section {
+    margin: 100px 0;
+}
+
+#amount-section {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#amount-section .amount-item {
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #737373;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#amount-section .amount-item:nth-child(2) {
+    color: #3c40c6;
+    background: rgba(60, 65, 198, 0.073);
+    border: 3px solid #3c40c6;
+}
+
+.number-of-amount {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.number-of-amount input {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #495057;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.number-of-amount input:focus {
+    outline: 0;
+}
+
+.donate-now {
+    text-align: center;
+}
