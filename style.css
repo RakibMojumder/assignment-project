@@ -138,3 +138,53 @@ h6 {
 .donate-now {
     text-align: center;
 }
+
+
+
+/* Our donate palne css */
+
+.our-donate-plane {
+    margin: 100px 0;
+}
+
+#our-plane-list {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-plane-list-item {
+    height: 350px;
+    width: 31%;
+    box-shadow: 4px 4px 20px #dddd;
+}
+
+.our-plane-list-item img {
+    margin: 55px 0 40px 20px;
+}
+
+.our-plane-list-item h2 {
+    margin: 0 0 30px 20px;
+}
+
+.our-plane-list-item p {
+    color: #AEA7A7;
+    font-size: 17px;
+    padding: 0 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.our-plane-list-item:nth-child(1) {
+    background: rgba(255, 212, 42, 0.123);
+}
+
+.our-plane-list-item:nth-child(2) {
+    background: rgba(255, 62, 52, 0.123);
+}
+
+.our-plane-list-item:nth-child(3) {
+    background: rgba(5, 196, 107, 0.123);
+}
