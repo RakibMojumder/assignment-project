@@ -3,9 +3,6 @@
     margin: 0;
 }
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
 body,
 p,
 a,
@@ -53,7 +50,7 @@ h6 {
 
 
 .header-section {
-    background: url(./images/donation5.jpg) no-repeat center center;
+    background: url(./images/donation13.jpg) no-repeat center center;
     background-size: cover;
     height: 700px;
     width: 100%;
@@ -158,6 +155,7 @@ h6 {
 .our-plane-list-item {
     height: 350px;
     width: 31%;
+    border-radius: 10px;
     box-shadow: 4px 4px 20px #dddd;
 }
 
@@ -188,6 +186,7 @@ h6 {
 .our-plane-list-item:nth-child(3) {
     background: rgba(5, 196, 107, 0.123);
 }
+
 
 
 
@@ -230,6 +229,90 @@ h6 {
 }
 
 
+/* artical section two css */
+
+.articl-section-two {
+    margin: 100px auto;
+    width: 70%;
+    display: flex;
+}
+
+.artical-section-two-left {
+    width: 50%;
+}
+
+.artical-section-two-left img {
+    width: 100%;
+    height: auto;
+}
+
+.artical-section-two-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artical-section-two-right h1 {
+    font-size: 46px;
+    margin-left: 30px;
+}
+
+.artical-section-two-right p {
+    font-size: 18px;
+    margin: 40px 0;
+    color: #AEA7A7;
+    margin-left: 30px;
+}
+
+/* Donation photo gellary section css */
+
+
+#donation-photo-gellary {
+    margin: 150px 0;
+}
+
+.photo-gellary-header {}
+
+.photo-gellary {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-gellary-item {
+    width: 23%;
+    margin-bottom: 30px;
+}
+
+.photo-gellary-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-gellary-pages-section {
+    width: 80%;
+    margin: auto;
+}
+
+.photo-gellary-pages-section .link-button {
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: 500;
+    background: #FAFAFA;
+    color: #3c40c6;
+    border: 2px solid #3c40c6;
+    padding: 5px 15px;
+}
+
+.photo-gellary-pages-section .link-button:nth-child(4) {
+    background: #3c40c6;
+    color: #fff;
+}
+
+
 
 
 /* update section css */
@@ -269,7 +352,7 @@ h6 {
 /* footer section */
 
 footer {
-    height: 200px;
+    height: 150px;
     background: #000;
     display: flex;
     flex-direction: column;
@@ -277,13 +360,12 @@ footer {
     align-items: center;
 }
 
-footer h1,
-p {
-    color: #ffff;
-}
-
 footer h1 {
     color: #3c40c6;
     font-style: italic;
     margin-bottom: 20px;
+}
+
+footer p {
+    color: #ffff;
 }
