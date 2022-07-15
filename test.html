@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #button {
+            padding: 10px 25px;
+            font-size: 20px;
+            background: #FAFA;
+        }
+
+        #decrement {
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 20px;
+            background: #FAFA;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-div">
+        <div>
+            <h1 id="increment">0</h1>
+        </div>
+        <div>
+            <button id="button" onclick="clickHandler()">increment +</button>
+        </div>
+        <div>
+            <button id="decrement" onclick="clickHandlerTwo()">decrement -</button>
+        </div>
+    </div>
+</body>
+
+<script>
+    let increment = document.getElementById('increment');
+    let button = document.getElementById('button');
+    let number = 0;
+
+    function clickHandler() {
+        number++;
+        increment.innerText = number;
+    }
+
+    function clickHandlerTwo() {
+        number--;
+        increment.innerText = number;
+    }
+
+</script>
+
+</html>
